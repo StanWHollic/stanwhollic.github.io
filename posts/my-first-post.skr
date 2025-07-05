@@ -1,4 +1,4 @@
-(add-2to-load-path "../")
+(add-to-load-path "../")
 (use-modules (links))
 (post
  :title "My first post!"
@@ -13,6 +13,7 @@
     document format that allows you to use
     embed scheme programs to create your
     document.])
+
 (p [to find out more about The Carpentries, 
    go to the ,(%carpentries) website.])
 
